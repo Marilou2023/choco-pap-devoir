@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+
+
+.footer {
+    background-color: #2C1E1E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.title {
+    color: #B65F28;
+    font-size: 23px;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media i {
+    color: #B65F28;
+}

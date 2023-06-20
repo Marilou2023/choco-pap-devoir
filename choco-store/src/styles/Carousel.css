@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+
+/* Carousel.css */
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 46px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.carousel-button {
+    display: block;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Fjalla One", sans-serif;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .carousel-title {
+        font-size: 26px;
+    }
+}
