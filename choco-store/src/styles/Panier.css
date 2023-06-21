@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+
+/* ComposantPanier.css */
+.panier-container {
+    text-align: center;
+}
+
+.panier-title {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    color: #B65F28;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: black;
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+
+.produit-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.supprimer-produit {
+    color: red;
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.produit-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.produit-info {
+    text-align: left;
+}
+
+.produit-nom {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #55C0CF;
+}
+
+.produit-prix {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #55C0CF;
+}
+
+.quantite-selector {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.quantite-button {
+    color: #FFFFFF;
+    background: #B65F28;
+    border: none;
+    font-size: 20px;
+    padding: 5px 8px;
+}
+
+.quantite {
+    margin: 0 10px;
+}
+
+.total {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.reset-button {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #FFFFFF;
+    background: #B65F28;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.valider-button {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #FFFFFF;
+    background: #B65F28;
+    border: none;
+    padding: 10px 20px;
+}

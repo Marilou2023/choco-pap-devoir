@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+
+z .boutique {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product {
+    width: 30%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-size: 20px;
+    font-family: Fjalla One;
+    color: #B65F28;
+    text-align: center;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #55C0CF;
+    text-align: center;
+}
+
+.product-note {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #2C1E1E;
+}
+
+.add-to-cart {
+    background-color: #B65F28;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Montserrat;
+}
