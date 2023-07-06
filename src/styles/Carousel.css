@@ -1,30 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
 
-/* Carousel.css */
 .carousel {
-    position: relative;
-    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .carousel-title {
-    text-align: center;
+
     color: #FFFFFF;
+    font-family: "Fjalla One", sans-serif;
     font-size: 46px;
-    font-family: "Fjalla One", sans-serif;
+    text-align: center;
 }
 
-.carousel-button {
-    display: block;
-    margin: auto;
+.carousel-slides {
+    /* Ajouter les styles des slides ici */
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* Ajouter le filtre noir */
+    filter: brightness(70%);
+}
+
+.slide {
+    /* Ajouter les styles d'une slide */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    /* Ajouter les styles de l'image  */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bouton-boutique {
+    /* Ajouter les styles du bouton */
     color: #FFFFFF;
-    font-size: 16px;
     font-family: "Fjalla One", sans-serif;
-    cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .carousel-title {
-        font-size: 26px;
-    }
+    font-size: 16px;
+    text-transform: uppercase;
+    /* Ajouter d'autres styles de bouton */
 }
