@@ -1,40 +1,93 @@
-import React from 'react';
+iimport React from 'react';
 import './Boutique.css';
 
-function Boutique() {
+const Boutique = () => {
     return (
         <div className="boutique">
             <div className="row">
-                <div className="product">
-                    <img src="product1.jpg" alt="Product 1" />
-                    <h2 className="product-name">Nom du produit 1</h2>
-                    <p className="product-price">€19.99</p>
-                    <p className="product-note">Note:</p>
-                    <button className="add-to-cart">Ajouter au panier</button>
-                </div>
-                <div className="product">
-                    <img src="product2.jpg" alt="Product 2" />
-                    <h2 className="product-name">Nom du produit 2</h2>
-                    <p className="product-price">€14.99</p>
-                    <p className="product-note">Note:</p>
-                    <button className="add-to-cart">Ajouter au panier</button>
-                </div>
-                <div className="product">
-                    <img src="product3.jpg" alt="Product 3" />
-                    <h2 className="product-name">Nom du produit 3</h2>
-                    <p className="product-price">€24.99</p>
-                    <p className="product-note">Note:</p>
-                    <button className="add-to-cart">Ajouter au panier</button>
-                </div>
+                <Produit
+                    nom="Produit 1"
+                    image="url_de_l_image"
+                    categorie="Tous"
+                    prix={10}
+                    note={3}
+                />
+                <Produit
+                    nom="Produit 2"
+                    image="url_de_l_image"
+                    categorie="Chocolat blanc"
+                    prix={15}
+                    note={4}
+                />
+                <Produit
+                    nom="Produit 3"
+                    image="url_de_l_image"
+                    categorie="Chocolat au lait"
+                    prix={12}
+                    note={5}
+                />
             </div>
             <div className="row">
-                <!-- Repeat additional products for second row -->
+                <Produit
+                    nom="Produit 4"
+                    image="url_de_l_image"
+                    categorie="Chocolat noir"
+                    prix={18}
+                    note={2}
+                />
+                <Produit
+                    nom="Produit 5"
+                    image="url_de_l_image"
+                    categorie="Noix, Noisettes"
+                    prix={10}
+                    note={4}
+                />
+                <Produit
+                    nom="Produit 6"
+                    image="url_de_l_image"
+                    categorie="Fruits"
+                    prix={8}
+                    note={3}
+                />
             </div>
             <div className="row">
-                <!-- Repeat additional products for third row -->
+                <Produit
+                    nom="Produit 7"
+                    image="url_de_l_image"
+                    categorie="Caramel"
+                    prix={14}
+                    note={5}
+                />
+                <Produit
+                    nom="Produit 8"
+                    image="url_de_l_image"
+                    categorie="Liqueur"
+                    prix={20}
+                    note={4}
+                />
+                <Produit
+                    nom="Produit 9"
+                    image="url_de_l_image"
+                    categorie="Tous"
+                    prix={16}
+                    note={3}
+                />
             </div>
         </div>
     );
-}
+};
+
+const Produit = ({ nom, image, categorie, prix, note }) => {
+    return (
+        <div className="produit">
+            <img src={image} alt={nom} />
+            <h2>{nom}</h2>
+            <div className="categorie">{categorie}</div>
+            <div className="prix">{prix} €</div>
+            <div className="note">Note : {note}</div>
+            <button className="btn">Ajouter au panier</button>
+        </div>
+    );
+};
 
 export default Boutique;
