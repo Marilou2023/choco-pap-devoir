@@ -4,6 +4,8 @@ import Accueil from "./pages/Accueil";
 import Navbar from "./components/Navbar";
 import Boutique from "./pages/Boutique";
 import Footer from "./components/Footer";
+import Carousel from "./components/Carousel";
+
 
 function App() {
   const router = createBrowserRouter([

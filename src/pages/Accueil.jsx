@@ -6,7 +6,7 @@ import PRODUITS from "../data/products.json";
 const Accueil = () => {
   return (
     <>
-      
+
       <Carousel />
     </>
   );
