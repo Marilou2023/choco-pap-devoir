@@ -1,6 +1,6 @@
 // Navbar.jsx
 import React from "react";
-import "./Navbar.css";
+import "../styles/Navbar.css";
 import Filter from "./Filter";
 
 const Navbar = () => {

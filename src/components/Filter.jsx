@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Filter.css";
+import "../styles/filter.css";
 
 const Filter = () => {
   const [selectedCategories, setSelectedCategories] = useState([]);
