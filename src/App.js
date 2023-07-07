@@ -19,8 +19,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Footer />
+      
       <RouterProvider router={router} />
+      <Footer />
     </>
   );
 }
