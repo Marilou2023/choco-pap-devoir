@@ -1,4 +1,4 @@
-// ComposantPanier.js
+// Panier.js
 import React, { useState } from "react";
 import "../styles/ComposantPanier.css";
 
