@@ -12,7 +12,6 @@ const Navbar = () => {
         <li className="link">Boutique</li>
       </ul>
       <div className="cart">Panier</div>
-      <Filter /> {Filter.jsx}
     </nav>
   );
 };
