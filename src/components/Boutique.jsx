@@ -1,5 +1,5 @@
 import React from "react";
-import "./Boutique.css";
+import "../styles/Boutique.css";
 
 const Boutique = () => {
   return (

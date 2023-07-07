@@ -2,30 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
 
 /* Navbar.css */
+
 .navbar {
     background-color: #2C1E1E;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 10px;
 }
 
-.logo {
-    height: 50px;
+.logo img {
+    width: 50px;
 }
 
-.links {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
-
-.link {
+.links a {
     color: #FFFFFF;
     font-size: 16px;
-    font-family: "Fjalla One", sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 10px;
 }
 
-.cart {
-    color: #FFD543;
+.cart img {
+    width: 30px;
+    height: 30px;
+    background-color: #FFD543;
 }

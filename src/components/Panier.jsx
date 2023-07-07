@@ -1,6 +1,6 @@
 // ComposantPanier.js
 import React, { useState } from "react";
-import "./ComposantPanier.css"; // Importe le fichier CSS pour le style
+import "../styles/ComposantPanier.css";
 
 const ComposantPanier = () => {
   const [produits, setProduits] = useState([]); // Tableau pour stocker les produits choisis

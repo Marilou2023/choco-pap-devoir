@@ -6,14 +6,17 @@ import Filter from "./Filter";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src="logo.png" alt="Logo" className="logo" />
-      <ul className="links">
-        <li className="link">Accueil</li>
-        <li className="link">Boutique</li>
-      </ul>
-      <div className="cart">Panier</div>
+      <div className="logo">
+        <img src="logo.png" alt="Logo" />
+      </div>
+      <div className="links">
+        <a href="#">Accueil</a>
+        <a href="#">Boutique</a>
+      </div>
+      <div className="cart">
+        <img src="cart.png" alt="Panier" />
+      </div>
     </nav>
   );
 };
-
 export default Navbar;

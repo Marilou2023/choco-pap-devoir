@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Accueil from "./pages/Accueil";
 import Navbar from "./components/Navbar";
 import Boutique from "./pages/Boutique";
+import Footer from "./components/Footer";
 
 function App() {
   const router = createBrowserRouter([
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Footer />
       <RouterProvider router={router} />
     </>
   );
