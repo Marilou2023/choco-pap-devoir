@@ -5,27 +5,21 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="column">
-        <p className="title">Choco Pap</p>
-        <p className="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s
+        <h1 className="column-title">Choco Pap</h1>
+        <p className="column-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <div className="column">
-        <p className="title">Contact</p>
-        <p className="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s
+        <h1 className="column-title">Contact</h1>
+        <p className="column-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <div className="column">
-        <div className="social-media">
-          <i className="fab fa-facebook-f"></i>
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-twitter"></i>
-        </div>
+        <img src="facebook.png" alt="Facebook" className="social-icon" />
+        <img src="instagram.png" alt="Instagram" className="social-icon" />
+        <img src="twitter.png" alt="Twitter" className="social-icon" />
       </div>
     </footer>
   );
