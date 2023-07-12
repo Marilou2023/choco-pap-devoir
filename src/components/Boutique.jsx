@@ -9,14 +9,14 @@ const Boutique = () => {
           nom="Choco-cerise"
           image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit1.jpg"
           categories="Fruit|Noix/Noisettes|Chocolat au lait|Tous"
-          prix={10}
+          prix={30}
           note={3}
         />
         <Produit
           nom="Chocolaitcaramel"
           image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit2.jpg"
           categories="Caramel|Chocolat au lait|Tous"
-          prix={15}
+          prix={20}
           note={4}
         />
         <Produit

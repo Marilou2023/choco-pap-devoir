@@ -2,57 +2,57 @@
   {
     "id": 1,
     "nom": "Choco-cerise",
-    "prix": "30$",
-    "categories": ""
+    "prix": "30€",
+    "categories": "Fruit|Noix/Noisettes|Chocolat au lait|Tous"
   },
   {
     "id": 2,
-    "nom": "Produit 2",
-    "prix": "30$",
-    "categories": ""
+    "nom": "Chocolaitcaramel",
+    "prix": "20€",
+    "categories": "Caramel|Chocolat au lait|Tous"
   },
   {
     "id": 3,
-    "nom": "Produit 3",
-    "prix": "30$",
-    "categories": ""
+    "nom": "Choco-griottes",
+    "prix": "12€",
+    "categories": "Fruit|chocolat au lait|Liqueur|Tous"
   },
   {
     "id": 4,
-    "nom": "Produit 4",
-    "prix": "30$",
-    "categories": ""
+    "nom": "Choco-love",
+    "prix": "18€",
+    "categories": "Chocolat blanc|Tous"
   },
   {
     "id": 5,
-    "nom": "Produit 3",
-    "prix": "30$",
-    "categories": ""
+    "nom": "Choco-noisette",
+    "prix": "10€",
+    "categories": "Noix/Noisettes|Chocolat au lait|Tous"
   },
   {
     "id": 6,
-    "nom": "Produit 3",
-    "prix": "30$",
-    "categories": ""
+    "nom": "Choco-tendre",
+    "prix": "8€",
+    "categories": "Chocolat blanc|Chocolat au lait|Tous"
   },
   {
     "id": 7,
-    "nom": "Produit 3",
-    "prix": "30$",
-    "categories": ""
+    "nom": "Choco-fraise",
+    "prix": "14€",
+    "categories": "Fruit|Noix/Noisettes|Liqueur|Tous"
   },
   {
     "id": 8,
-    "nom": "Produit 3",
-    "prix": "30$",
-    "categories": ""
+    "nom": "Choco-blacklove",
+    "prix": "20€",
+    "categories": "Chocolat noir|Liqueur|Tous"
   }
   ,
   {
-    "id": 3,
-    "nom": "Produit 3",
-    "prix": "30$",
-    "categories": ""
+    "id": 9,
+    "nom": "Choco-croc",
+    "prix": "16€",
+    "categories": "Chocolat au lait|Tous"
   }
   
 ]
