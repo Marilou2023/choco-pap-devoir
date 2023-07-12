@@ -6,13 +6,11 @@ const ComposantPanier = () => {
   const [produits, setProduits] = useState([]); // Tableau pour stocker les produits choisis
 
   const ajouterProduit = () => {
-    // Ajouter un produit au panier
     const nouveauProduit = { nom: "Nom du produit", prix: 10, quantite: 1 };
     setProduits([...produits, nouveauProduit]);
   };
 
   const supprimerProduit = (index) => {
-    // Supprimer un produit du panier
     const nouveauxProduits = [...produits];
     nouveauxProduits.splice(index, 1);
     setProduits(nouveauxProduits);

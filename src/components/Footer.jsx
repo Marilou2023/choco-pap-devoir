@@ -7,13 +7,17 @@ const Footer = () => {
       <div className="column">
         <h1 className="column-title">Choco Pap</h1>
         <p className="column-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum
+          dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit.
         </p>
       </div>
       <div className="column">
         <h1 className="column-title">Contact</h1>
         <p className="column-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum
+          dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
         </p>
       </div>
       <div className="column">
