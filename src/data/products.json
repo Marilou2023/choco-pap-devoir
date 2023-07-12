@@ -1,26 +1,58 @@
 [
   {
     "id": 1,
-    "name": "Produit 1",
-    "price": "30$",
-    "category": ""
+    "nom": "Choco-cerise",
+    "prix": "30$",
+    "categories": ""
   },
   {
     "id": 2,
-    "name": "Produit 2",
-    "price": "30$",
-    "category": ""
+    "nom": "Produit 2",
+    "prix": "30$",
+    "categories": ""
   },
   {
     "id": 3,
-    "name": "Produit 3",
-    "price": "30$",
-    "category": ""
+    "nom": "Produit 3",
+    "prix": "30$",
+    "categories": ""
   },
   {
     "id": 4,
-    "name": "Produit 4",
-    "price": "30$",
-    "category": ""
+    "nom": "Produit 4",
+    "prix": "30$",
+    "categories": ""
+  },
+  {
+    "id": 5,
+    "nom": "Produit 3",
+    "prix": "30$",
+    "categories": ""
+  },
+  {
+    "id": 6,
+    "nom": "Produit 3",
+    "prix": "30$",
+    "categories": ""
+  },
+  {
+    "id": 7,
+    "nom": "Produit 3",
+    "prix": "30$",
+    "categories": ""
+  },
+  {
+    "id": 8,
+    "nom": "Produit 3",
+    "prix": "30$",
+    "categories": ""
   }
+  ,
+  {
+    "id": 3,
+    "nom": "Produit 3",
+    "prix": "30$",
+    "categories": ""
+  }
+  
 ]

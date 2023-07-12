@@ -6,69 +6,69 @@ const Boutique = () => {
     <div className="boutique">
       <div className="row">
         <Produit
-          nom="Produit 1"
-          image="url_de_l_image"
-          categorie="Tous"
+          nom="Choco-cerise"
+          image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit1.jpg"
+          categories="Fruit|Noix/Noisettes|Chocolat au lait|Tous"
           prix={10}
           note={3}
         />
         <Produit
-          nom="Produit 2"
-          image="url_de_l_image"
-          categorie="Chocolat blanc"
+          nom="Chocolaitcaramel"
+          image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit2.jpg"
+          categories="Caramel|Chocolat au lait|Tous"
           prix={15}
           note={4}
         />
         <Produit
-          nom="Produit 3"
-          image="url_de_l_image"
-          categorie="Chocolat au lait"
+          nom="choco-griottes"
+          image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit3.jpg"
+          categories="Fruit|chocolat au lait|Liqueur|Tous"
           prix={12}
           note={5}
         />
       </div>
       <div className="row">
         <Produit
-          nom="Produit 4"
-          image="url_de_l_image"
-          categorie="Chocolat noir"
+          nom="choco-love"
+          image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit4.jpg"
+          categories="Chocolat blanc|Tous"
           prix={18}
           note={2}
         />
         <Produit
-          nom="Produit 5"
-          image="url_de_l_image"
-          categorie="Noix, Noisettes"
+          nom="Choco-noisette"
+          image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit5.jpg"
+          categories="Noix/Noisettes|Chocolat au lait|Tous"
           prix={10}
           note={4}
         />
         <Produit
-          nom="Produit 6"
-          image="url_de_l_image"
-          categorie="Fruits"
+          nom="Choco-tendre"
+          image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit6.jpg"
+          categories="Chocolat blanc|Chocolat au lait|Tous"
           prix={8}
           note={3}
         />
       </div>
       <div className="row">
         <Produit
-          nom="Produit 7"
-          image="url_de_l_image"
-          categorie="Caramel"
+          nom="Choco-fraise"
+          image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit7.jpg"
+          categories="Fruit|Noix/Noisettes|Liqueur|Tous"
           prix={14}
           note={5}
         />
         <Produit
-          nom="Produit 8"
-          image="url_de_l_image"
-          categorie="Liqueur"
+          nom="Choco-blacklove"
+          image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit8.jpg"
+          categories="Chocolat noir|Liqueur|Tous"
           prix={20}
           note={4}
         />
         <Produit
-          nom="Produit 9"
-          image="url_de_l_image"
-          categorie="Tous"
+          nom="Choco-croc"
+          image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit9.jpg"
+          categories="Chocolat au lait|Tous"
           prix={16}
           note={3}
         />
