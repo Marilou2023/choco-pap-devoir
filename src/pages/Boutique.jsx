@@ -1,15 +1,10 @@
 import React from "react";
-import NavBar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Filter from "../components/Filter";
-import PRODUITS from "../data/products.json";
+import BoutiqueComponent from "../components/Boutique";
 
 const Boutique = () => {
   return (
     <>
-      {PRODUITS.map((item) => (
-        <h2>{item.name}</h2>
-      ))}
+      <BoutiqueComponent />
     </>
   );
 };

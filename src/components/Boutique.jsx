@@ -1,11 +1,21 @@
 import React from "react";
 import "../styles/Boutique.css";
+import PRODUITS from "../data/products.json";
 
 const Boutique = () => {
   return (
     <div className="boutique">
       <div className="row">
-        <Produit
+        {PRODUITS.map((item) => (
+          <Produit
+            nom={item.nom}
+            image={item.url}
+            categories={item.categories}
+            prix={item.prix}
+            note={3}
+          />
+        ))}
+        {/* <Produit
           nom="Choco-cerise"
           image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit1.jpg"
           categories="Fruit|Noix/Noisettes|Chocolat au lait|Tous"
@@ -25,9 +35,9 @@ const Boutique = () => {
           categories="Fruit|chocolat au lait|Liqueur|Tous"
           prix={12}
           note={5}
-        />
+        /> */}
       </div>
-      <div className="row">
+      {/* <div className="row">
         <Produit
           nom="choco-love"
           image="https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit4.jpg"
@@ -72,7 +82,7 @@ const Boutique = () => {
           prix={16}
           note={3}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
