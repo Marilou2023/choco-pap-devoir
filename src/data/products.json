@@ -39,15 +39,14 @@
     "nom": "Choco-tendre",
     "prix": "8€",
     "categories": ["Chocolat blanc", "Chocolat au lait"],
-    "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit6.jpg
+    "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit6.jpg"
   },
   {
     "id": 7,
     "nom": "Choco-fraise",
     "prix": "14€",
     "categories": ["Fruit", "Noix/Noisettes", "Liqueur"],
-  
-    "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit7.jpg
+    "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit7.jpg"
   },
   
   {
@@ -55,14 +54,14 @@
     "nom": "Choco-blacklove",
     "prix": "20€",
     "categories": ["Chocolat noir", "Liqueur"],
-    "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit8.jpg
+    "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit8.jpg"
   },
   {
     "id": 9,
     "nom": "Choco-croc",
     "prix": "16€",
-    "categories": "Chocolat au lait"|Tous"
-    "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit9.jpg
+    "categories": "Chocolat au lait",
+    "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit9.jpg"
   }
   
 ]

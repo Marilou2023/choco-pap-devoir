@@ -6,15 +6,19 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .produit {
+    width: 33%;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .produit img {
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .h2 {
