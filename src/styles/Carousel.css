@@ -7,13 +7,19 @@
     text-align: center;
 }
 
+.contentSlider {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+
 .slide {
     position: relative;
     filter: brightness(70%);
 }
 
 .carousel-title {
-    color: #ffffff;
+    color: #372727;
     font-family: 'Fjalla One', sans-serif;
     font-size: 46px;
     text-align: center;
