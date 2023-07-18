@@ -7,7 +7,7 @@ const Filter = () => {
   const [selectedMaxPrice, setSelectedMaxPrice] = useState("");
   const [selectedMinRating, setSelectedMinRating] = useState("");
   const [selectedMaxRating, setSelectedMaxRating] = useState("");
-
+  
   const handleCategoryChange = (category) => {
     if (selectedCategories.includes(category)) {
       setSelectedCategories(

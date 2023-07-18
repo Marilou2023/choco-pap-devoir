@@ -2,64 +2,64 @@
   {
     "id": 1,
     "nom": "Choco-cerise",
-    "prix": "30€",
-    "categories": ["Fruit", "Noix/Noisettes", "Chocolat au lait"],
+    "prix": "30",
+    "categories": ["Fruit", "Noix, Noisettes", "Chocolat au lait"],
     "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit1.jpg"
   },
   {
     "id": 2,
     "nom": "Chocolaitcaramel",
-    "prix": "20€",
+    "prix": "20",
     "categories": ["Caramel", "Chocolat au lait"],
     "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit2.jpg"
   },
   {
     "id": 3,
     "nom": "Choco-griottes",
-    "prix": "12€",
+    "prix": "12",
     "categories": ["Fruit", "Chocolat au lait", "Liqueur"],
     "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit3.jpg"
   },
   {
     "id": 4,
     "nom": "Choco-love",
-    "prix": "18€",
+    "prix": "18",
     "categories": "Chocolat blanc",
     "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit4.jpg"
   },
   {
     "id": 5,
     "nom": "Choco-noisette",
-    "prix": "10€",
-    "categories": ["Noix/Noisettes", "Chocolat au lait"],
+    "prix": "10",
+    "categories": ["Noix, Noisettes", "Chocolat au lait"],
     "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit5.jpg"
   },
   {
     "id": 6,
     "nom": "Choco-tendre",
-    "prix": "8€",
+    "prix": "8",
     "categories": ["Chocolat blanc", "Chocolat au lait"],
     "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit6.jpg"
   },
   {
     "id": 7,
     "nom": "Choco-fraise",
-    "prix": "14€",
-    "categories": ["Fruit", "Noix/Noisettes", "Liqueur"],
+    "prix": "14",
+    "categories": ["Fruit", "Noix, Noisettes", "Liqueur"],
     "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit7.jpg"
   },
   
   {
     "id": 8,
     "nom": "Choco-blacklove",
-    "prix": "20€",
+    "prix": "20",
     "categories": ["Chocolat noir", "Liqueur"],
     "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit8.jpg"
   },
   {
     "id": 9,
     "nom": "Choco-croc",
-    "prix": "16€",
+    "prix": "16",
     "categories": "Chocolat au lait",
     "url": "https://www.media.forma-stock.com/wp-content/uploads/2023/07/produit9.jpg"
   }

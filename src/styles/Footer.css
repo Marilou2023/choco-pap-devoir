@@ -42,7 +42,7 @@
     height: 30px;
     width: 30px;
     margin-right: 10px;
-    flex-direction: align;
+    /* flex-direction: align; */
 }
 
 /* Ajout de la règle pour les images des réseaux sociaux */
