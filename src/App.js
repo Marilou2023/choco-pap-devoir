@@ -3,7 +3,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Accueil from "./pages/Accueil";
 import Boutique from "./pages/Boutique";
 import DetailProduct from "./pages/DetailProduct";
-
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Carousel from "./components/Carousel";
