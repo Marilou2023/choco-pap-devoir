@@ -2,8 +2,31 @@
 import React from "react";
 import "../styles/Navbar.css";
 import Filter from "./Filter";
+import Modal from "react-modal";
+import Panier from "./Panier";
+
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+  },
+};
 
 const Navbar = () => {
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   return (
     <nav className="navbar">
       <div className="logo">
@@ -13,9 +36,17 @@ const Navbar = () => {
         <a href="#">Accueil</a>
         <a href="#">Boutique</a>
       </div>
-      <div className="cart">
+      <button className="cart" onClick={openModal}>
         <img src="cart.png" alt="Panier" />
-      </div>
+      </button>
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <Panier />
+      </Modal>
     </nav>
   );
 };

@@ -1,8 +1,13 @@
 // Panier.js
-import React, { useState } from "react";
-import "../styles/ComposantPanier.css";
+import React, { useState, useContext } from "react";
+import "../styles/Panier.css";
+import PanierContext from "../App";
 
 const ComposantPanier = () => {
+  const panierData = useContext(PanierContext);
+
+  console.log("context", panierData);
+
   const [produits, setProduits] = useState([]); // Tableau pour stocker les produits choisis
 
   const ajouterProduit = () => {
