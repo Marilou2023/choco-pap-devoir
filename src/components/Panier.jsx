@@ -2,23 +2,21 @@
 import React, { useState, useContext } from "react";
 import "../styles/Panier.css";
 import PanierContext from "../App";
+import { usePanier } from "../context/PanierContext";
 
 const ComposantPanier = () => {
-  const panierData = useContext(PanierContext);
-
+  const panierData = usePanier();
   console.log("context", panierData);
 
-  const [produits, setProduits] = useState([]); // Tableau pour stocker les produits choisis
+  const produits = panierData.panier; // Contenu du panier sous forme de tableau []
 
   const ajouterProduit = () => {
     const nouveauProduit = { nom: "Nom du produit", prix: 10, quantite: 1 };
-    setProduits([...produits, nouveauProduit]);
+    panierData.addProduct(nouveauProduit);
   };
 
   const supprimerProduit = (index) => {
-    const nouveauxProduits = [...produits];
-    nouveauxProduits.splice(index, 1);
-    setProduits(nouveauxProduits);
+    panierData.deleteProduit(index);
   };
 
   const calculerTotal = () => {
@@ -32,13 +30,14 @@ const ComposantPanier = () => {
 
   const reinitialiserPanier = () => {
     // Réinitialiser le panier
-    setProduits([]);
+    panierData.resetPanier()
   };
 
   return (
     <div className="panier-container">
       <h1 className="panier-title">Panier</h1>
       <button className="close-button">&#10005;</button>
+      <button onClick={ajouterProduit}>Ajouter un produit</button>
       {produits.map((produit, index) => (
         <div className="produit-container" key={index}>
           <button

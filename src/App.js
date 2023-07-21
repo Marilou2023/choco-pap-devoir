@@ -6,9 +6,7 @@ import Boutique from "./pages/Boutique";
 import DetailProduct from "./pages/DetailProduct";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-// import Carousel from "./components/Carousel";
-
-export const PanierContext = React.createContext(null);
+import {PanierProvider} from './context/PanierContext';
 
 function App() {
   const router = createBrowserRouter([
@@ -29,14 +27,14 @@ function App() {
       element: <DetailProduct />,
     },
   ]);
-  const defaultValue = { countProduct: 2 }
+
   return (
     <>
-      <PanierContext.Provider value={defaultValue}>
+      <PanierProvider>
         <Navbar />
         <RouterProvider router={router} />
         <Footer />
-      </PanierContext.Provider>
+      </PanierProvider>
     </>
   );
 }
