@@ -11,13 +11,12 @@
 }
 
 .column {
-    display: flex;
-
     align-items: flex-start;
+    width: 50%;
 }
 
 .column-title {
-    color: #B65F28;
+    color: #FFD543;
     font-size: 23px;
     text-align: left;
     font-family: 'Fjalla One', sans-serif;
@@ -28,7 +27,6 @@
     font-size: 16px;
     text-align: left;
     font-family: 'Fjalla One', sans-serif;
-    margin-top: 10px;
 }
 
 .social-icons {
@@ -41,12 +39,14 @@
 .social-icon {
     height: 30px;
     width: 30px;
+    justify-content: flex-end;
     margin-right: 10px;
     /* flex-direction: align; */
 }
 
 /* Ajout de la règle pour les images des réseaux sociaux */
 .social-icon img {
-    display: block;
+
+    display: flex;
     /* Assurez-vous que les images sont affichées en tant que bloc */
 }

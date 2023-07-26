@@ -6,7 +6,7 @@
 .navbar {
     background-color: #2C1E1E;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px;
 }
