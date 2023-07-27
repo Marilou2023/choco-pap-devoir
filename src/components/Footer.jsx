@@ -21,9 +21,18 @@ const Footer = () => {
         </p>
       </div>
       <div className="column">
-        <img src="facebook.png" alt="Facebook" className="social-icon" />
-        <img src="instagram.png" alt="Instagram" className="social-icon" />
-        <img src="twitter.png" alt="Twitter" className="social-icon" />
+        <img
+          src="https://www.media.forma-stock.com/wp-content/uploads/2023/07/facebook.png"
+          alt="facebook"
+        />
+        <img
+          src="https://www.media.forma-stock.com/wp-content/uploads/2023/07/instagram.png"
+          alt="instagram"
+        />
+        <img
+          src="https://www.media.forma-stock.com/wp-content/uploads/2023/07/twitter.png"
+          alt="twitter"
+        />
       </div>
     </footer>
   );

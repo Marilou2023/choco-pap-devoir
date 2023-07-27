@@ -4,6 +4,7 @@ import "../styles/Navbar.css";
 import Filter from "./Filter";
 import Modal from "react-modal";
 import Panier from "./Panier";
+import logo from "../images/logo.png";
 
 const customStyles = {
   content: {
@@ -30,7 +31,10 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="./assets/images/logo.png" alt="" />
+        <img
+          src="https://www.media.forma-stock.com/wp-content/uploads/2023/07/logo.png"
+          alt=""
+        />
       </div>
       <div className="links">
         <a href="#">Accueil</a>
