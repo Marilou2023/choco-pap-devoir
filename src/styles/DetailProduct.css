@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
+
+
+main {
+    text-align: center;
+    vertical-align: center;
+    line-height: 100vh;
+    margin-left: 50px;
+    /* Added margin-left property */
+}
+
+.navbar {
+    margin-bottom: 40px;
+    /* Added margin-bottom property */
+}
+
+.image {
+    margin-top: 20px;
+
+}
+
+h1 {
+    color: #B65F28;
+    margin-left: 40px;
+}
+
+h2 {
+    color: #B65F28;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+p {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+strong {
+    margin-left: 40px;
+    /* Added margin-left property */
+}
+
+select {
+    margin-left: 40px;
+    /* Added margin-left property */
+}
+
+button {
+    background-color: #55C0CF;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px 7px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 40px;
+}

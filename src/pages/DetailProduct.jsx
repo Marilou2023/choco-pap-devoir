@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import PRODUITS from "../data/products.json";
+import "../styles/DetailProduct.css";
 
 const DetailProducts = () => {
   const params = useParams();
