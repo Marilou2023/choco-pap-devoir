@@ -3,18 +3,32 @@
 
 /* Navbar.css */
 
+/* Styles pour la version ordinateur */
 .navbar {
     background-color: #2C1E1E;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
+    height: 80px;
+
 }
 
 .logo img {
     width: 50px;
-    text-align: left;
+    float: left;
+}
 
+.navbar .menu-toggle:not(.open) {
+    display: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centrer horizontalement */
+    height: 100%;
 
 }
 
@@ -22,11 +36,43 @@
     color: #FFFFFF;
     font-size: 16px;
     font-family: 'Fjalla One', sans-serif;
-    margin-right: 50px;
+    margin-right: 10px;
+
 }
 
 .cart img {
     width: 30px;
     height: 30px;
-    background-color: #FFD543;
+}
+
+/* Styles pour la version mobile */
+@media (max-width: 768px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .links a {
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .cart {
+
+        background-color: transparent;
+        border: none;
+
+        cursor: pointer;
+
+    }
+
+    button.cart {
+        margin-top: 15px;
+
+    }
 }
