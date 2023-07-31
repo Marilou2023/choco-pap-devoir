@@ -1,73 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap");
 
-/* Styles pour les écrans de grande taille */
+/* styles/Footer.css */
+
+/* Styles communs pour toutes les versions */
 .footer {
-    background-color: #2c1e1e;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    background-color: #2C1E1E;
+    /* Couleur de fond du footer */
     padding: 20px;
 }
 
 .column {
-    align-items: flex-start;
-    width: 50%;
-
+    flex: 1;
+    text-align: center;
 }
 
 .column-title {
-    color: #ffd543;
-    font-size: 23px;
-    text-align: left;
-    font-family: "Fjalla One", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    /* Couleur du texte blanc pour les titres */
 }
 
 .column-text {
-    color: #ffffff;
-    font-size: 16px;
-    text-align: left;
-    font-family: "Fjalla One", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    /* Couleur du texte blanc pour les paragraphes */
 }
 
-.social-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-icon img {
-    height: 50%;
-    width: 50%;
-    width: 35px;
-}
-
-/* Styles pour les écrans de taille moyenne et petite */
+/* Styles pour la version mobile (écran d'une taille maximale de 768px) */
 @media only screen and (max-width: 768px) {
     .footer {
-        flex-wrap: wrap;
-        padding: 20px;
+        flex-direction: column;
     }
 
     .column {
-        width: 100%;
         margin-bottom: 20px;
     }
 
-    .column-title {
-        font-size: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .column-text {
-        font-size: 14px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .social-icon img {
-        width: 25px;
-
+    .column:last-child {
+        margin-bottom: 0;
     }
 }
