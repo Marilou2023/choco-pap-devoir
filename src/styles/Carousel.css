@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
-
 
 .carousel {
     position: relative;
@@ -16,7 +14,8 @@
 .slide {
     position: relative;
     filter: brightness(50%);
-    height: 900px;
+    /* Ajuster la hauteur du carousel pour la version bureau */
+    height: 500px;
 }
 
 .carousel-title {
@@ -42,5 +41,10 @@
 @media (max-width: 768px) {
     .carousel-title {
         font-size: 26px;
+    }
+
+    .slide {
+        height: 400px;
+
     }
 }
