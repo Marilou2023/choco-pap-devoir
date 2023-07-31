@@ -12,7 +12,7 @@ const DetailProducts = () => {
   return (
     <div>
       <div className="row">
-        <img src={product.url} />
+        <img src={product.url} style={{maxWidth: '100%'}} alt=""/>
         <div>
           <h1>{product.nom}</h1>
           <strong>{product.prix}</strong>

@@ -15,7 +15,7 @@ export function PanierProvider({ children }) {
     setPanier([...panier, produit]);
   };
 
-  // Fonction pour réinisitalisé le panier au complet
+  // Fonction pour réinisitaliser le panier au complet
   const resetPanier = () => {
     setPanier([]);
   };

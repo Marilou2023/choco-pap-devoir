@@ -5,11 +5,14 @@ main {
     text-align: center;
     vertical-align: center;
     line-height: 100vh;
-    margin-left: 50px;
+    margin-left: 40px;
+    /* Marge de 40px à gauche pour la version bureau */
+    margin-right: 40px;
+    /* Marge de 40px à droite pour la version bureau */
 }
 
 .navbar {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .image {
@@ -19,17 +22,23 @@ main {
 h1 {
     color: #B65F28;
     margin-left: 40px;
+    /* Marge de 40px à gauche pour la version bureau */
+    margin-right: 40px;
+    /* Marge de 40px à droite pour la version bureau */
 }
 
 h2 {
     color: #B65F28;
     font-weight: bold;
     margin-left: 40px;
+    /* Marge de 40px à gauche pour la version bureau */
+    margin-right: 40px;
+    /* Marge de 40px à droite pour la version bureau */
 }
 
 p {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 strong {
@@ -60,6 +69,38 @@ button {
     }
 
     p {
-        margin-right: 80px;
+        margin: 20px;
+        margin-right: 20px;
+    }
+
+    strong {
+        margin-left: 20px;
+    }
+
+    select {
+        margin-left: 20px;
+    }
+
+    button {
+        background-color: #55C0CF;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 7px 7px;
+        border-radius: 10px;
+        border: none;
+        margin-left: 20px;
+    }
+
+    main {
+        margin: 20px;
+        /* Nouvelle règle pour la version mobile */
+    }
+
+    h1,
+    h2 {
+        margin: 20px;
+        /* Nouvelle règle pour la version mobile */
+
     }
 }
