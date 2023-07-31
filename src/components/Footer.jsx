@@ -20,15 +20,17 @@ const Footer = () => {
           consectetur adipiscing elit.
         </p>
       </div>
-      <div className="column">
+      <div class="column-social-media-images">
         <img
           src="https://www.media.forma-stock.com/wp-content/uploads/2023/07/facebook.png"
           alt="facebook"
         />
+        <div class="column-social-media-images"></div>
         <img
           src="https://www.media.forma-stock.com/wp-content/uploads/2023/07/instagram.png"
           alt="instagram"
         />
+        <div class="column-social-media-images"></div>
         <img
           src="https://www.media.forma-stock.com/wp-content/uploads/2023/07/twitter.png"
           alt="twitter"

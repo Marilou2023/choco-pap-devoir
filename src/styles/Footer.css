@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap");
 
-/* styles/Footer.css */
-
 /* Styles communs pour toutes les versions */
 .footer {
     display: flex;
@@ -13,20 +11,48 @@
 
 .column {
     flex: 1;
-    text-align: center;
+    text-align: left;
+    /* Alignement à gauche pour les colonnes */
+    display: flex;
+    flex-direction: column;
+    /* Alignement des éléments en colonne */
+    align-items: flex-start;
+    /* Alignement des éléments sur le bord gauche */
 }
 
 .column-title {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #FFFFFF;
-    /* Couleur du texte blanc pour les titres */
+    color: #FFD543;
+    /* Couleur jaune (#FFD543) pour les titres */
 }
 
 .column-text {
     font-size: 14px;
     color: #FFFFFF;
     /* Couleur du texte blanc pour les paragraphes */
+    text-align: left;
+    /* Alignement à gauche pour les paragraphes */
+}
+
+/* Styles pour les images des réseaux sociaux */
+.column img {
+    margin-top: 10px;
+    /* Espace entre les paragraphes et les images */
+    max-width: 50%;
+    /* Pour s'assurer que les images ne dépassent pas la largeur de la colonne */
+    width: 50%;
+    /* Pour s'assurer que les images ne dépassent pas la largeur de la colonne */
+    height: auto;
+    /* Pour que les images couvrent le conteneur en conservant leurs proportions */
+}
+
+/* Alignement horizontal des images des réseaux sociaux */
+.column-social-media-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Alignement horizontal des images au centre */
 }
 
 /* Styles pour la version mobile (écran d'une taille maximale de 768px) */
@@ -41,5 +67,10 @@
 
     .column:last-child {
         margin-bottom: 0;
+    }
+
+    /* Alignement horizontal des images des réseaux sociaux en version mobile */
+    .column-social-media-images {
+        justify-content: center;
     }
 }

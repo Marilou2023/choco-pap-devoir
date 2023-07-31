@@ -2,6 +2,10 @@
 
 .carousel {
     position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     text-align: center;
 }
 
@@ -24,6 +28,7 @@
     font-size: 120px;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
 }
 
 .boutique-button {
@@ -40,11 +45,20 @@
 
 @media (max-width: 768px) {
     .carousel-title {
-        font-size: 26px;
+        font-size: 40px;
+    }
+
+    .contentSlider {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        /* Centrer le contenu horizontalement */
     }
 
     .slide {
         height: 400px;
-
     }
 }
