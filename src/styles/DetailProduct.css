@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
 
-
+/* Pour toutes les tailles d'écran */
 main {
     text-align: center;
     vertical-align: center;
     line-height: 100vh;
     margin-left: 50px;
-    /* Added margin-left property */
 }
 
 .navbar {
     margin-bottom: 40px;
-    /* Added margin-bottom property */
 }
 
 .image {
     margin-top: 20px;
-
 }
 
 h1 {
@@ -33,17 +30,14 @@ h2 {
 p {
     margin-left: 40px;
     margin-right: 40px;
-
 }
 
 strong {
     margin-left: 40px;
-    /* Added margin-left property */
 }
 
 select {
     margin-left: 40px;
-    /* Added margin-left property */
 }
 
 button {
@@ -55,4 +49,17 @@ button {
     border-radius: 10px;
     border: none;
     margin-left: 40px;
+}
+
+/* Version mobile */
+@media (max-width: 768px) {
+    .image {
+        width: 50%;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    p {
+        margin-right: 80px;
+    }
 }
