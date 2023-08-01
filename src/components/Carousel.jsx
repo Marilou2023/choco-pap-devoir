@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 import "../styles/Carousel.css";
 
@@ -22,9 +23,9 @@ const Carousel = () => {
         <img src={accueil1} alt="Slide 1" />
         <div className="contentSlider">
           <h1 className="carousel-title">Choco Pap</h1>
-          <a href="/boutique" className="boutique-button">
+          <Link to={"/boutique"} className="boutique-button">
             Voir la boutique
-          </a>
+          </Link>
         </div>
       </div>
       {/* Slide 2 */}
@@ -32,9 +33,9 @@ const Carousel = () => {
         <img src={accueil2} alt="Slide 2" />
         <div className="contentSlider">
           <h1 className="carousel-title">Choco Pap</h1>
-          <a href="/boutique" className="boutique-button">
+          <Link to={"/boutique"} className="boutique-button">
             Voir la boutique
-          </a>
+          </Link>
         </div>
       </div>
       {/* Slide 3 */}
@@ -42,9 +43,9 @@ const Carousel = () => {
         <img src={accueil3} alt="Slide 3" />
         <div className="contentSlider">
           <h1 className="carousel-title">Choco Pap</h1>
-          <a href="/boutique" className="boutique-button">
+          <Link to={"/boutique"} className="boutique-button">
             Voir la boutique
-          </a>
+          </Link>
         </div>
       </div>
     </Slider>

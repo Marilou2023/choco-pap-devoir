@@ -1,7 +1,7 @@
 // Navbar.jsx
 import React, { useState } from "react";
 import "../styles/Navbar.css";
-import Filter from "./Filter";
+// import Filter from "./Filter";
 import Modal from "react-modal";
 import Panier from "./Panier";
 import logo from "../images/logo.png";
@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <a href="#">
+        <a href="/">
           <img src={logo} alt="Logo du site" />
         </a>
       </div>
@@ -57,14 +57,16 @@ const Navbar = () => {
       </div>
       {/* Liens de navigation, qui s'affichent lorsque le menu mobile est ouvert */}
       <div className={`links ${isMobileOpen ? "open" : ""}`}>
-        <Link to="/">Accueil</Link>
-        <Link to="/boutique">Boutique</Link>
+        <a href="/">
+          Accueil
+        </a>
+        <a href="/boutique">
+          Boutique
+        </a>
       </div>
       {/* Bouton du panier, qui ouvre le modal du panier au clic */}
       <button className="cart" onClick={openModal}>
-        <a href="#">
-          <img src={cartImage} alt="Panier" />
-        </a>
+        <img src={cartImage} alt="Panier" />
       </button>
       {/* Le modal qui s'ouvre lorsque le bouton du panier est cliqué */}
       <Modal
