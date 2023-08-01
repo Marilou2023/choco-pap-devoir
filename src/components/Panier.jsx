@@ -10,10 +10,7 @@ const ComposantPanier = () => {
 
   const produits = panierData.panier; // Contenu du panier sous forme de tableau []
 
-  const ajouterProduit = () => {
-    const nouveauProduit = { nom: "Nom du produit", prix: 10, quantite: 1 };
-    panierData.addProduct(nouveauProduit);
-  };
+  console.log("PANIER > ", produits);
 
   const supprimerProduit = (index) => {
     panierData.deleteProduit(index);
@@ -30,14 +27,13 @@ const ComposantPanier = () => {
 
   const reinitialiserPanier = () => {
     // Réinitialiser le panier
-    panierData.resetPanier()
+    panierData.resetPanier();
   };
 
   return (
     <div className="panier-container">
       <h1 className="panier-title">Panier</h1>
       <button className="close-button">&#10005;</button>
-      <button onClick={ajouterProduit}>Ajouter un produit</button>
       {produits.map((produit, index) => (
         <div className="produit-container" key={index}>
           <button
