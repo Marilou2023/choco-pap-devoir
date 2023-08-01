@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,800&display=swap');
 
-/* Pour toutes les tailles d'écran */
 main {
     text-align: center;
     vertical-align: center;
     line-height: 100vh;
     margin-left: 40px;
-    /* Marge de 40px à gauche pour la version bureau */
     margin-right: 40px;
-    /* Marge de 40px à droite pour la version bureau */
+
 }
 
 .navbar {
@@ -22,18 +20,16 @@ main {
 h1 {
     color: #B65F28;
     margin-left: 40px;
-    /* Marge de 40px à gauche pour la version bureau */
     margin-right: 40px;
-    /* Marge de 40px à droite pour la version bureau */
+
 }
 
 h2 {
     color: #B65F28;
     font-weight: bold;
     margin-left: 40px;
-    /* Marge de 40px à gauche pour la version bureau */
     margin-right: 40px;
-    /* Marge de 40px à droite pour la version bureau */
+
 }
 
 p {
@@ -94,13 +90,11 @@ button {
 
     main {
         margin: 20px;
-        /* Nouvelle règle pour la version mobile */
     }
 
     h1,
     h2 {
         margin: 20px;
-        /* Nouvelle règle pour la version mobile */
 
     }
 }

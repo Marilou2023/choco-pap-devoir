@@ -18,7 +18,6 @@
 .slide {
     position: relative;
     filter: brightness(50%);
-    /* Ajuster la hauteur du carousel pour la version bureau */
     height: 500px;
 }
 
@@ -55,7 +54,6 @@
         top: 50%;
         transform: translateY(-50%);
         text-align: center;
-        /* Centrer le contenu horizontalement */
     }
 
     .slide {

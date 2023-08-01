@@ -2,11 +2,11 @@
 
 
 .filter-container {
-    background-color: #b65f28;
     padding: 20px;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    background-color: #55C0CF;
 }
 
 .categories h2,

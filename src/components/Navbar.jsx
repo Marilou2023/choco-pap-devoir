@@ -20,7 +20,7 @@ const customStyles = {
 };
 
 const Navbar = () => {
-  // État local pour gérer l'ouverture/fermeture du modal et l'état du menu mobile
+  
   const [modalIsOpen, setIsOpen] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 

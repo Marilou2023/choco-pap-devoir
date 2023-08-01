@@ -30,29 +30,20 @@
 .column-text {
     font-size: 14px;
     color: #FFFFFF;
-    /* Couleur du texte blanc pour les paragraphes */
     text-align: left;
-    /* Alignement à gauche pour les paragraphes */
 }
 
-/* Styles pour les images des réseaux sociaux */
 .column img {
     margin-top: 10px;
-    /* Espace entre les paragraphes et les images */
     max-width: 50%;
-    /* Pour s'assurer que les images ne dépassent pas la largeur de la colonne */
     width: 50%;
-    /* Pour s'assurer que les images ne dépassent pas la largeur de la colonne */
     height: auto;
-    /* Pour que les images couvrent le conteneur en conservant leurs proportions */
 }
 
-/* Alignement horizontal des images des réseaux sociaux */
 .column-social-media-images {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Alignement horizontal des images au centre */
 }
 
 /* Styles pour la version mobile (écran d'une taille maximale de 768px) */
@@ -69,7 +60,6 @@
         margin-bottom: 0;
     }
 
-    /* Alignement horizontal des images des réseaux sociaux en version mobile */
     .column-social-media-images {
         justify-content: center;
     }
