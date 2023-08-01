@@ -20,7 +20,6 @@ const customStyles = {
 };
 
 const Navbar = () => {
-  
   const [modalIsOpen, setIsOpen] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
@@ -51,18 +50,13 @@ const Navbar = () => {
         className={`menu-toggle ${isMobileOpen ? "open" : ""}`}
         onClick={handleMenuToggle}
       >
-        <span></span>
-        <span></span>
-        <span></span>
+        <span>Accueil</span>
+        <span>Boutique</span>
       </div>
       {/* Liens de navigation, qui s'affichent lorsque le menu mobile est ouvert */}
       <div className={`links ${isMobileOpen ? "open" : ""}`}>
-        <a href="/">
-          Accueil
-        </a>
-        <a href="/boutique">
-          Boutique
-        </a>
+        <a href="/">Accueil</a>
+        <a href="/boutique">Boutique</a>
       </div>
       {/* Bouton du panier, qui ouvre le modal du panier au clic */}
       <button className="cart" onClick={openModal}>
@@ -75,7 +69,7 @@ const Navbar = () => {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        {/* Le composant Panier qui s'affiche dans le modal */}
+        {/* Le composant Panier  */}
         <Panier />
       </Modal>
     </nav>
