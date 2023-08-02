@@ -6,7 +6,7 @@ import Modal from "react-modal";
 import Panier from "./Panier";
 import logo from "../images/logo.png";
 import cartImage from "../images/cart.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const customStyles = {
   content: {
@@ -55,8 +55,8 @@ const Navbar = () => {
       </div>
       {/* Liens de navigation, qui s'affichent lorsque le menu mobile est ouvert */}
       <div className={`links ${isMobileOpen ? "open" : ""}`}>
-        <a href="/">Accueil</a>
-        <a href="/boutique">Boutique</a>
+        <NavLink to="/">Accueil</NavLink>
+        <NavLink to="/boutique">Boutique</NavLink>
       </div>
       {/* Bouton du panier, qui ouvre le modal du panier au clic */}
       <button className="cart" onClick={openModal}>

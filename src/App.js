@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Accueil from "./pages/Accueil";
 import Boutique from "./pages/Boutique";
 import DetailProduct from "./pages/DetailProduct";
@@ -9,32 +9,43 @@ import Footer from "./components/Footer";
 import {PanierProvider} from './context/PanierContext';
 
 function App() {
+  const Layout = () => (
+    <>
+      <PanierProvider>
+        <Navbar />
+        <Outlet />
+        <Footer />
+      </PanierProvider>
+    </>
+  );
+
   const router = createBrowserRouter([
     {
-      path: "/",
-      element: <Accueil />,
-    },
-    {
-      path: "/boutique",
-      element: <Boutique />,
-    },
-    {
-      path: "/detail",
-      element: <DetailProduct />,
-    },
-    {
-      path: "/detail/:id",
-      element: <DetailProduct />,
-    },
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <Accueil />,
+        },
+        {
+          path: "/boutique",
+          element: <Boutique />,
+        },
+        {
+          path: "/detail",
+          element: <DetailProduct />,
+        },
+        {
+          path: "/detail/:id",
+          element: <DetailProduct />,
+        }
+      ]
+    }
   ]);
 
   return (
     <>
-      <PanierProvider>
-        <Navbar />
-        <RouterProvider router={router} />
-        <Footer />
-      </PanierProvider>
+        <RouterProvider router={router}/>
     </>
   );
 }
